@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:monospace;
+    background: rgb(121,117,78);
+    background: linear-gradient(184deg, rgba(121,117,78,1) 0%, rgba(0,0,0,1) 0%, rgba(144,142,121,1) 53%, rgba(255,255,255,1) 99%, rgba(251,243,124,1) 100%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+}   
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:#fff;
+}
+.grafico{
+    background: white;
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
